@@ -113,8 +113,13 @@ footer {
     border-top: 2px solid #3a0d0d;
 }
 
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+    .carousel-item {
+        width: 175vh;  /* Set width to 175vh on small screens */
+        height: auto;  /* Adjust height to auto to maintain the aspect ratio */
+    }
     .carousel-caption h1 {
         font-size: 2.2rem;
     }
@@ -199,3 +204,4 @@ footer {
         height: 100px;
     }
 }
+
